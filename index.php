@@ -1,21 +1,21 @@
 <?php
-require __DIR__ . "/data.php";
-require __DIR__ . "/extrafunctions.php";
+require __DIR__ . "/php/data.php";
+require __DIR__ . "/php/extrafunctions.php";
 ?>
+
 
 <html lang="sv">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startsida</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<?php
+$headTitle = "Startsida";
+require __DIR__ . "/php/head.php";
+?>
 
 <body>
-    <header>
-        <h1>Teams</h1>
-    </header>
+    <?php
+    $title = "Teams";
+    require __DIR__ . "/php/header.php";
+    ?>
 
     <div class="teams">
         <?php foreach ($teams as $team => $value) : ?>
@@ -27,6 +27,11 @@ require __DIR__ . "/extrafunctions.php";
             <img src='<?= $value["logo"] ?>'>
         <?php endforeach; ?>
     </div>
+
+    <?php
+    require __DIR__ . "/php/footer.php";
+    ?>
+
 </body>
 
 </html>
