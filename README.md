@@ -1,4 +1,4 @@
 # teams
 some-teams
 
-Website showing information about football teams.
+Website about football teams.
