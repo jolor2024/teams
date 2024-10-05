@@ -41,7 +41,7 @@ nav ul a:hover {
     font-size: 1.2rem;
 }
 
-main {
+.about-info {
     margin: 0 auto;
     max-width: 1200px;
 }

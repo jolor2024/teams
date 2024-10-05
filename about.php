@@ -25,7 +25,6 @@ require __DIR__ . "/php/head.php";
         </section>
     </main>
 
-
     <?php
     require __DIR__ . "/php/footer.php";
     ?>
