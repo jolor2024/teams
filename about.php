@@ -20,7 +20,7 @@ require __DIR__ . "/php/head.php";
     <main>
         <section class="about-info">
             <h1 class="startTitle">Om mig</h1>
-            <p>En smålänning som landat på västkusten. Har intresse av både sport och webb. <br> För tillfället studerande vid Yrgo Webbutevecklare.
+            <p>En smålänning som landat på västkusten. Har intresse av både sport och webb. <br> För tillfället studerande vid Yrgo Webbutvecklare.
             </p>
         </section>
     </main>
