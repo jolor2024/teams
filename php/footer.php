@@ -1,1 +1,3 @@
-<footer><span>av Jonatan</span></footer>
+<footer>
+    <span>Hemsidan gjord av Jonatan</span>
+</footer>

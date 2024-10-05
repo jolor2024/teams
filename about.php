@@ -17,9 +17,14 @@ require __DIR__ . "/php/head.php";
     require __DIR__ . "/php/header.php";
     ?>
 
-    <h1>About me</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo tellus, fermentum a magna in, mollis congue enim. Donec venenatis lectus in augue vestibulum, quis iaculis nisi laoreet. Etiam ornare magna eget orci faucibus pulvinar. Nullam imperdiet turpis nibh, semper vestibulum ante rutrum rhoncus.
-    </p>
+    <main>
+        <section class="about-info">
+            <h1 class="startTitle">Om mig</h1>
+            <p>En smålänning som landat på västkusten. Har intresse av både sport och webb. <br> För tillfället studerande vid Yrgo Webbutevecklare.
+            </p>
+        </section>
+    </main>
+
 
     <?php
     require __DIR__ . "/php/footer.php";

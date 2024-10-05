@@ -11,6 +11,15 @@ h1, h2, h3, p {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #50a9b8;
+}
+
+a:hover {
+    color: #326871;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -25,17 +34,23 @@ nav ul {
 }
 
 nav ul a {
-    text-decoration: none;
     font-size: 1.2rem;
-    color: #67D9EE;
 }
 
 nav ul a:hover {
-    text-decoration: none;
     font-size: 1.2rem;
-    color: #50a9b8;
 }
 
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about-info p {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .teams-info {
     padding: 1rem;
@@ -49,7 +64,7 @@ nav ul a:hover {
 
 .team {
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: 1.1rem;
     box-shadow: 0px 0px 10px -2px rgb(192, 192, 192);
     width: 300px;
     display: flex;
@@ -57,13 +72,12 @@ nav ul a:hover {
     align-items: center;
     gap: 1rem;
 }
-.team:hover {
-    box-shadow: 0px 0px 15px 3px rgb(220, 220, 220);
-}
+
 
 
 .text-info {
     align-self: flex-start;
+    margin-top: 1.5rem;
 }
 
 .text-info p {
@@ -72,14 +86,14 @@ nav ul a:hover {
 }
 
 
-.team h2 {
+.team a {
     font-size: 1.2rem;
-    color: #50a9b8;
+    text-decoration: none;
     font-weight: 700;
 }
 .team img {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 
 .startTitle {
@@ -88,4 +102,13 @@ nav ul a:hover {
     font-size: 2rem;
     font-weight: 500;
     color: #50a9b8;
+}
+
+footer  {
+    text-align: center;
+    margin: 1rem;
+}
+
+footer span {
+    font-size: .7rem;
 }
