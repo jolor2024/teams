@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    background-color: #f7f7f7;
 }
 
 main {
@@ -92,6 +93,7 @@ nav ul a:hover {
 }
 
 .team {
+    background-color: #fff;
     border-radius: 5px;
     padding: 1.1rem;
     box-shadow: 0px 0px 10px -2px rgb(192, 192, 192);
