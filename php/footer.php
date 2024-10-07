@@ -1,3 +1,3 @@
 <footer>
-    <span>Hemsidan gjord av Jonatan</span>
+    <span>2024 Jonatan</span>
 </footer>
