@@ -73,6 +73,9 @@ nav ul a:hover {
     gap: 1rem;
 }
 
+.team:hover {
+    box-shadow: 0px 0px 15px -2px rgb(192, 192, 192);
+}
 
 
 .text-info {
