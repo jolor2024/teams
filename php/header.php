@@ -1,5 +1,5 @@
 <header>
-    <img src="teamslogo.svg" alt="logo" style="width: 250px; height:60px">
+    <img src="teamslogo.svg" alt="logo">
     <nav>
         <ul>
             <li><a href="index.php">Hem</a></li>
